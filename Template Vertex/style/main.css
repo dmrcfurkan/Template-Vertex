@@ -1,0 +1,280 @@
+.main{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
+    
+}
+.Vertex{
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    
+}
+.Vertex img{
+    width: 200px;
+    height: 200px;
+}
+.Vertex-text{
+    line-height: 1.8;
+    padding-left: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+}
+.Vertex h2{
+    font-size: 1.5em;
+}
+.Vertex a{
+    text-decoration: none;
+    color: #9c9;
+   
+}
+.Parallax{
+    margin-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding-top: 4rem;
+}
+.Parallax img{
+    width: 200px;
+    height: 200px;
+}
+.Parallax-text{
+    line-height: 1.8;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.Parallax h2{
+    font-size: 1.5em;
+}
+.Parallax a{
+    text-decoration: none;
+    color: #9c9;
+}
+.Layout{
+    margin-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding-top: 4rem;
+}
+.Layout img{
+    width: 200px;
+    height: 200px;
+}
+.Layout-text{
+    line-height: 1.8;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.Layout h2{
+    font-size: 1.5em;
+}
+.Layout a{
+    
+    text-decoration: none;
+    color: #9c9;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    
+}
+.Next-page{
+    margin-left: auto;
+    width: fit-content;
+    color: #999;
+    text-decoration: none;
+    border: 1px solid #666;
+    padding: 14px 40px;
+    font-size: 20px;
+    float: right;
+    margin-right: 2rem;
+    margin-top: 4rem;
+}
+.Next-page:hover{
+    color: #9c9;
+    border-color: #9c9;
+}
+
+/*****************************************/
+.our-services{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-top: 25rem ;
+    float: left;
+    text-align: left;
+}
+.our-services h2{
+    color: #9c9;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+.our-services p{
+    line-height: 1.8;
+    margin-bottom: 50px;
+}
+.our-services a{
+    width: fit-content;
+    margin-left: auto;
+    margin-top: -1rem;
+    margin-right: 4rem;
+}
+.our-services hr{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+/*****************************************/
+.bullseye{
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+.bullseye i{
+    font-family: "Font Awesome 5 Free";
+}
+.bullseye2{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 3rem;
+}
+.bullseye3{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.our-gallery{
+    margin-top: 130px;
+    text-align: right;
+    margin-right: 3rem;
+    color: #9c9;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+/********************************************/
+.photo-gallery{
+    margin-top: 1rem;
+    
+}
+.wrapper-gallery{
+    display: flex;
+    flex-direction: column;
+}
+.list1{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    text-align: left;
+    justify-content: center;
+}
+.list1 img{
+    
+    width: 250px;
+    height: 250px;
+}
+.about-us-image img{
+    object-fit: fill;
+    position: sticky;
+    top: 10px;
+    height: 140vh;
+}
+.about-us{
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 2rem;
+    
+}
+.about-us h2{
+    color: #9c9;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+.about-us p{
+    line-height: 1.8;
+    margin-bottom: 80px;
+    color: #9c9;
+}
+.contact-button{
+    cursor: pointer;
+    margin-left: auto;
+    width: fit-content;
+    color: #999;
+    text-decoration: none;
+    border: 1px solid #666;
+    background-color: transparent;
+    color: #999;
+    padding: 14px 40px;
+    font-size: 20px;
+    margin-right: 3rem;
+}
+.contact-button:hover{
+    transition: 300ms;
+    color: #9c9;
+    border-color: #9c9;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12rem;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.inputs input{
+    color: #999;
+    font-size: 20px;
+    font-family: 'Kumbh Sans',sans-serif;
+    padding: 25px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #666;
+    background: 0 0;
+}
+.inputs textarea{
+    color: #999;
+    font-size: 20px;
+    font-family: 'Kumbh Sans',sans-serif;
+    padding: 25px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #666;
+    background: 0 0;
+}
+.send{
+    cursor: pointer;
+    margin-left: auto;
+    width: fit-content;
+    color: #999;
+    text-decoration: none;
+    border: 1px solid #666;
+    background-color: transparent;
+    color: #999;
+    padding: 14px 40px;
+    font-size: 20px;
+}
+.send:hover{
+    color: #9c9;
+    border-color: #9c9;
+}

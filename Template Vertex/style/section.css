@@ -1,0 +1,34 @@
+.images{
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    visibility: visible;
+    margin-bottom: auto;
+    z-index: -1;
+    
+}
+.first-images-right img{
+    object-fit: fill;
+    position: sticky;
+    top: 0px;
+}
+.images-2{
+    height: 1000px;
+    z-index: -1;
+    object-fit: cover;
+}
+div>section{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.promotion-image{
+    display: flex;
+    flex-direction: row;
+}
+.promotion-image-2{
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: row;
+}
